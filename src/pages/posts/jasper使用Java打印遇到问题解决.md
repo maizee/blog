@@ -4,7 +4,11 @@ title: "Java集成jasper实现打印遇到的坑"
 pubDate: 2023-04-06
 description: ""
 author: "liyucheng"
-tags: ["报表打印", "jasper", "Java"]
+cover:
+  url: ""
+  square: ""
+  alt: "cover"
+tags: ["少女漫画", "漫画", "阅读"]
 theme: "light"
 featured: true
 ---
