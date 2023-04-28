@@ -8,7 +8,7 @@ cover:
   url: ""
   square: ""
   alt: "cover"
-tags: ["少女漫画", "漫画", "阅读"]
+tags: ["Java", "jasper", "打印报表"]
 theme: "light"
 featured: true
 ---
