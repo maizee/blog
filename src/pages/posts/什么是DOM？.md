@@ -8,7 +8,7 @@ cover:
   url: ""
   square: ""
   alt: "cover"
-tags: ["前端", "DOM"]
+tags: ["前端", "DOM", "技术"]
 theme: "light"
 featured: true
 ---
@@ -35,6 +35,8 @@ handleDownload(row) {
   a.click()
 }
 ```
+
+总之，DOM 是关于如何获取、修改、添加或删除 HTML 元素的标准。
 
 参考：
 [DOM 概述-Web 开发技术](https://developer.mozilla.org/zh-CN/docs/Web/API/Document_Object_Model/Introduction)
