@@ -71,7 +71,7 @@ featured: true
 
 “失恋的人吹吹江风就好很多，你们武汉的风是带着爱的哈”
 
---[VLOG074. 热干面、雪山和轮渡](https://bangumi.tv/blog/335886)
+--[VLOG074. 热干面、雪山和轮渡](https://www.bilibili.com/video/BV1Qz4y1m7tx/?spm_id_from=333.999.0.0&vd_source=0234ab1d8c640cb8252df5ce55d6142d)
 
 2、
 
