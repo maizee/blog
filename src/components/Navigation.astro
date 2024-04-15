@@ -2,6 +2,8 @@
 import { SITE_TITLE } from "../consts";
 ---
 
+<link href="/pagefind/pagefind-ui.css" rel="stylesheet" />
+<script src="/pagefind/pagefind-ui.js" is:inline></script>
 
 <nav class="nav">
   <div class="nav-wrapper">
@@ -9,6 +11,12 @@ import { SITE_TITLE } from "../consts";
       <div class="nav-content">
         <a href="/" class="nav-title">{SITE_TITLE}</a>
         <div class="nav-menu">
+          <div class="nav-item-wrapper">
+            <div id="search"></div>
+          </div>
+          <div class="nav-item-wrapper">
+            <button class="nav-item-content">搜索</button>
+          </div>
           <div class="nav-item-wrapper">
             <a href="/archive" class="nav-item-content">目录</a>
           </div>
@@ -23,3 +31,8 @@ import { SITE_TITLE } from "../consts";
     </div>
   </div>
 </nav>
+<script>
+  window.addEventListener("DOMContentLoaded", (event) => {
+    new PagefindUI({ element: "#search", showSubResults: true });
+  });
+</script>

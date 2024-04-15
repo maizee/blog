@@ -434,6 +434,10 @@ a.nav-title:hover {
   color: #2997ff;
 }
 
+.nav-item-wrapper button:hover {
+  color: #2997ff;
+}
+
 .main {
   padding: 0;
   overflow-x: hidden
