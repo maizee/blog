@@ -7,12 +7,14 @@
     left: 50%;
     transform: translate(-50%);
     min-width: 50rem;
-    height: 300px;
+    max-height: 400px;
     padding: 20px;
     background-color: #edeef3;
     border: 1px solid #ccc;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
     border-radius: 5px;
+    overflow-x: hidden; /* 水平方向不出现滚动条 */
+    overflow-y: auto;
   }
 
   /* 对话框按钮的样式 */
