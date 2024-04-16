@@ -1,0 +1,56 @@
+<style>
+  /* 对话框容器的样式 */
+  .dialog-container {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%);
+    min-width: 50rem;
+    padding: 20px;
+    background-color: #edeef3;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+  }
+
+  /* 对话框按钮的样式 */
+  .dialog-button {
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: none !important;
+    color: #676b5f;
+  }
+</style>
+
+<link href="/pagefind/pagefind-ui.css" rel="stylesheet" />
+<script src="/pagefind/pagefind-ui.js" is:inline></script>
+
+<button id="open-dialog-button" class="dialog-button">搜索</button>
+
+<div id="dialog-container" class="dialog-container">
+  <div id="search"></div>
+</div>
+
+<script>
+  // 获取对话框相关的元素
+  const openDialogButton = document.getElementById("open-dialog-button");
+  const dialogContainer = document.getElementById("dialog-container");
+
+  // 打开对话框的点击事件处理程序
+  openDialogButton.addEventListener("click", () => {
+    dialogContainer.style.display = "block";
+  });
+
+  // 监听点击对话框外部的事件
+  document.addEventListener("click", (event) => {
+    const target = event.target;
+    if (!dialogContainer.contains(target) && target !== openDialogButton) {
+      dialogContainer.style.display = "none";
+    }
+  });
+
+  window.addEventListener("DOMContentLoaded", (event) => {
+    new PagefindUI({ element: "#search", showSubResults: true });
+  });
+</script>
