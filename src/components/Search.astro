@@ -6,7 +6,7 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%);
-    min-width: 50rem;
+    min-width: 50vw;
     max-height: 70vh;
     padding: 20px;
     background-color: #edeef3;
@@ -37,8 +37,8 @@
 
 <script>
   // 获取对话框相关的元素
-  const openDialogButton = document.getElementById("open-dialog-button");
-  const dialogContainer = document.getElementById("dialog-container");
+  const openDialogButton = document.getElementById("open-dialog-button")!;
+  const dialogContainer = document.getElementById("dialog-container")!;
 
   // 打开对话框的点击事件处理程序
   openDialogButton.addEventListener("click", () => {
