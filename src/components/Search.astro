@@ -1,5 +1,5 @@
 <style>
-  /* 对话框容器的样式 */
+
   .dialog-container {
     display: none;
     position: fixed;
@@ -7,13 +7,13 @@
     left: 50%;
     transform: translate(-50%);
     min-width: 50rem;
-    max-height: 400px;
+    max-height: 70vh;
     padding: 20px;
     background-color: #edeef3;
     border: 1px solid #ccc;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
     border-radius: 5px;
-    overflow-x: hidden; /* 水平方向不出现滚动条 */
+    overflow-x: hidden;
     overflow-y: auto;
   }
 
@@ -43,6 +43,12 @@
   // 打开对话框的点击事件处理程序
   openDialogButton.addEventListener("click", () => {
     dialogContainer.style.display = "block";
+  });
+
+  // 对话框的点击事件处理程序
+  dialogContainer.addEventListener("click", (event) => {
+    // 阻止事件冒泡
+    event.stopPropagation();
   });
 
   // 监听点击对话框外部的事件
