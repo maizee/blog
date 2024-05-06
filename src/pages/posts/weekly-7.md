@@ -17,7 +17,7 @@ featured: true
 
 ![嘉米真好看😍😍](https://www.streetfighter.com/6/assets/images/character/cammy/cammy.png)
 
-五一假期 5 天，长沙下了 4 天雨，在寝室呆着实在无聊，浏览steam商店想找一些游戏消磨下时光，格斗游戏里推荐了街霸，脑子一热，下单。
+五一假期 5 天，宁乡下了 4 天雨，在寝室呆着实在无聊，浏览steam商店想找一些游戏消磨下时光，格斗游戏里推荐了街霸，脑子一热，下单。
 
 然后一发不可收拾。
 
