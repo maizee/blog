@@ -2,7 +2,7 @@
 layout: "../../layouts/MarkdownPost.astro"
 title: "周记第10：美国的平原真的那么强吗？"
 pubDate: 2024-06-09
-description: "不是所有的平原都利用耕作"
+description: "不是所有的平原都利于耕作"
 author: "李玉成"
 cover:
   url: "/image/weekly-10/mj手办.png"
@@ -17,7 +17,7 @@ featured: true
 
 ![mj明日香和mj绫波丽](/image/weekly-10/mj手办.png)
 
-手办因为材质，任务姿势等原因，时间长了之后，较为劣质的手办就会产生变形。S1 坛友的这两个手办在变形之后产生莫名的喜感。[(via)](https://bbs.saraba1st.com/2b/thread-2186061-1-1.html)
+手办因为材质，人物姿势等原因，时间长了之后，较为劣质的手办就会产生变形。S1 坛友的这两个手办在变形之后产生莫名的喜感。[(via)](https://bbs.saraba1st.com/2b/thread-2186061-1-1.html)
 
 # 梗图：当三个 JK 发现谷歌街景车
 
