@@ -8,7 +8,7 @@ cover:
   url: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/SAP_2011_logo.svg/1920px-SAP_2011_logo.svg.png"
   square: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/SAP_2011_logo.svg/1920px-SAP_2011_logo.svg.png"
   alt: "cover"
-tags: ["周刊"]
+tags: ["SAP","RFC"]
 theme: "light"
 featured: true
 ---
