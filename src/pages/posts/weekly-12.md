@@ -1,12 +1,12 @@
 ---
 layout: "../../layouts/MarkdownPost.astro"
-title: "周记第12："
+title: "周记第12：“我不是什么都知道，我只知道我知道的事情”"
 pubDate: 2024-07-21
-description: ""
+description: "“	我不想当什么真物，我只想做一个人。	” ——《猫物语·白》"
 author: "李玉成"
 cover:
-  url: "https://img.moegirl.org.cn/common/thumb/0/0f/Yande360174.jpg/1920px-Yande360174.jpg"
-  square: "https://img.moegirl.org.cn/common/thumb/0/0f/Yande360174.jpg/1920px-Yande360174.jpg"
+  url: "/image/weekly-12/1920px-Yande360174.webp"
+  square: "/image/weekly-12/1920px-Yande360174.webp"
   alt: "cover"
 tags: ["周刊"]
 theme: "light"
@@ -15,7 +15,7 @@ featured: true
 
 # 封面
 
-![物语系列|inline](https://img.moegirl.org.cn/common/thumb/0/0f/Yande360174.jpg/1920px-Yande360174.jpg)
+![物语系列|inline](/image/weekly-12/1920px-Yande360174.webp)
 
 被几部连载动画恶心到后（水星的魔女、京吹 3），我决定再也不追连载动画，等完结之后看一下评价之后再一口气看完。
 
@@ -45,6 +45,8 @@ featured: true
 > 后面我才意识到要改变一个成年人有多难，最后还是我的上级启发了我，他说“公司不是学校，不负责改造人，而是找到适合的人在一起工作”。希望我的经历对你有帮助。
 
 2. 谈“义务”的时候义正严辞，谈“权利”的时候低声下气
+
+3. 我不是什么都知道，我只知道我知道的事情 ——羽川翼《物语》
 
 # 见闻
 
