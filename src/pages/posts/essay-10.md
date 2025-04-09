@@ -1,6 +1,6 @@
 ---
 layout: "../../layouts/MarkdownPost.astro"
-title: "周记第10：美国的平原真的那么强吗？"
+title: "美国的平原真的那么强吗？"
 pubDate: 2024-06-09
 description: "不是所有的平原都利于耕作"
 author: "李玉成"

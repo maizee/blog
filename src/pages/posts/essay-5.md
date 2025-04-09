@@ -1,6 +1,6 @@
 ---
 layout: "../../layouts/MarkdownPost.astro"
-title: "周记第5期：相亲经济学"
+title: "相亲经济学"
 pubDate: 2024-04-20
 description: ""
 author: "李玉成"

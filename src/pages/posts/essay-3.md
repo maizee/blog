@@ -1,6 +1,6 @@
 ---
 layout: "../../layouts/MarkdownPost.astro"
-title: "周记第3期：来自远东的风"
+title: "来自远东的风"
 pubDate: 2024-04-06
 description: ""
 author: "李玉成"

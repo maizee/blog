@@ -1,6 +1,6 @@
 ---
 layout: "../../layouts/MarkdownPost.astro"
-title: "周记第7期：街霸6真好玩"
+title: "街霸6真好玩"
 pubDate: 2024-05-06
 description: ""
 author: "李玉成"

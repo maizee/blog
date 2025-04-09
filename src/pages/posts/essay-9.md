@@ -1,6 +1,6 @@
 ---
 layout: "../../layouts/MarkdownPost.astro"
-title: "周记第9：啥也不是"
+title: "啥也不是"
 pubDate: 2024-05-26
 description: ""
 author: "李玉成"

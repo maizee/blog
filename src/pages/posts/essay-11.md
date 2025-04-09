@@ -1,6 +1,6 @@
 ---
 layout: "../../layouts/MarkdownPost.astro"
-title: "周记第11：当天才被全民讨论时"
+title: "当天才被全民讨论时"
 pubDate: 2024-06-23
 description: "是好事还是坏事"
 author: "李玉成"

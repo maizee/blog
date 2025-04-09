@@ -1,6 +1,6 @@
 ---
 layout: "../../layouts/MarkdownPost.astro"
-title: "周记第4期：你想活出怎样的人生"
+title: "你想活出怎样的人生"
 pubDate: 2024-04-14
 description: ""
 author: "李玉成"

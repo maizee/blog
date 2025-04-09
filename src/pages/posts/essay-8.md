@@ -1,6 +1,6 @@
 ---
 layout: "../../layouts/MarkdownPost.astro"
-title: "周记第8期：越来越差的观影体验"
+title: "越来越差的观影体验"
 pubDate: 2024-05-18
 description: ""
 author: "李玉成"

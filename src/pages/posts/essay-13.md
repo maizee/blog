@@ -1,6 +1,6 @@
 ---
 layout: "../../layouts/MarkdownPost.astro"
-title: "周记第13：再见。你好"
+title: "再见。你好"
 pubDate: 2024-11-16
 description: "换个地方生活也好"
 author: "李玉成"

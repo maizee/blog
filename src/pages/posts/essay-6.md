@@ -1,6 +1,6 @@
 ---
 layout: "../../layouts/MarkdownPost.astro"
-title: "周记第6期：水手服总有一天要毕业的"
+title: "水手服总有一天要毕业的"
 pubDate: 2024-04-29
 description: ""
 author: "李玉成"

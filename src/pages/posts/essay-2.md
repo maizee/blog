@@ -1,6 +1,6 @@
 ---
 layout: "../../layouts/MarkdownPost.astro"
-title: "周记第2期：来自泰国的喜悦之泪"
+title: "来自泰国的喜悦之泪"
 pubDate: 2024-03-30
 description: ""
 author: "李玉成"

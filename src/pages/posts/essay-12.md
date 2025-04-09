@@ -1,6 +1,6 @@
 ---
 layout: "../../layouts/MarkdownPost.astro"
-title: "周记第12：“我不是什么都知道，我只知道我知道的事情”"
+title: "“我不是什么都知道，我只知道我知道的事情”"
 pubDate: 2024-07-21
 description: "“	我不想当什么真物，我只想做一个人。	” ——《猫物语·白》"
 author: "李玉成"
