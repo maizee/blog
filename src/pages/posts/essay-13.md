@@ -5,8 +5,8 @@ pubDate: 2024-11-16
 description: "换个地方生活也好"
 author: "李玉成"
 cover:
-  url: "/image/weekly-13/friends-season-1.webp"
-  square: "/image/weekly-13/friends-season-1.webp"
+  url: "https://img.liyucheng.com/file/blog/weekly-13/friends-season-1.webp"
+  square: "https://img.liyucheng.com/file/blog/weekly-13/friends-season-1.webp"
   alt: "cover"
 tags: ["周刊"]
 theme: "light"
@@ -15,7 +15,7 @@ featured: true
 
 # 老友记
 
-![老友记|inline](/image/weekly-13/friends-season-1.webp)
+![老友记|inline](https://img.liyucheng.com/file/blog/weekly-13/friends-season-1.webp)
 
 非常出名的美国电视剧，不需要再多介绍。我最近非常喜欢看这部片子，吃饭洗衣服时就把手机放在一边播放。俊男靓女，以及令人羡慕的朋友关系，真好啊。
 
@@ -150,6 +150,6 @@ https://bbs.saraba1st.com/2b/thread-2201296-1-1.html 我那上五休五的工作
 
 从上大学到第一份工作，我在长沙有六年的生活，算是我的第二故乡了，这次离开，大概以后都不会回来。
 
-![林科大西园家具学院旁边，第一天军训时拍摄|inline](/image/weekly-13/大学军训.jpg)
+![林科大西园家具学院旁边，第一天军训时拍摄|inline](https://img.liyucheng.com/file/blog/weekly-13/大学军训.jpg)
 
-![楚天北门，军训完毕之后第一天到本部（上班了为什么还要军训？）|inline](/image/weekly-13/楚天北大门.jpg)
+![楚天北门，军训完毕之后第一天到本部（上班了为什么还要军训？）|inline](https://img.liyucheng.com/file/blog/weekly-13/楚天北大门.jpg)

@@ -5,8 +5,8 @@ pubDate: 2024-04-29
 description: ""
 author: "李玉成"
 cover:
-  url: "https://moegirl.uk/images/0/01/%E7%BC%A0%E6%B5%81%E5%AD%90.jpg"
-  square: "https://moegirl.uk/images/0/01/%E7%BC%A0%E6%B5%81%E5%AD%90.jpg"
+  url: "https://img.liyucheng.com/file/blog/weekly-6/image.png"
+  square: "https://img.liyucheng.com/file/blog/weekly-6/image.png"
   alt: "cover"
 tags: ["周刊"]
 theme: "light"
@@ -15,7 +15,7 @@ featured: true
 
 # 封面
 
-![发呆的缠流子](https://moegirl.uk/images/0/01/%E7%BC%A0%E6%B5%81%E5%AD%90.jpg)
+![发呆的缠流子](https://img.liyucheng.com/file/blog/weekly-6/image.png)
 
 斩服少女，很早就把这部动画下载到了电脑上，一直都没有花时间看。这周每天晚上下了班就看几集，终于看完了。制作组真的很有想法，画面上有很多特别的设计，比如超大超红的字体，针目缝手扶着自己的名字做介绍真的很有趣。音乐也不错，尤其是罗晓登场的曲子，非常的洗脑，看完之后意犹未尽又反复循环这首曲子好几天。
 

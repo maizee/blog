@@ -25,4 +25,4 @@ featured: true
 
 科技在进步，如今连功德箱都扫码收钱了。。。
 
-![S1截图|inline](/image/joke-1/Snipaste_2025-10-19_23-19-53.png)
+![S1截图|inline](https://img.liyucheng.com/file/blog/joke-1/Snipaste_2025-10-19_23-19-53.png)

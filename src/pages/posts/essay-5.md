@@ -5,8 +5,8 @@ pubDate: 2024-04-20
 description: ""
 author: "李玉成"
 cover:
-  url: "/image/weekly-5/害羞小向晚.jpg"
-  square: "/image/weekly-5/害羞小向晚.jpg"
+  url: "https://img.liyucheng.com/file/blog/weekly-5/害羞小向晚.jpg"
+  square: "https://img.liyucheng.com/file/blog/weekly-5/害羞小向晚.jpg"
   alt: "cover"
 tags: ["周刊"]
 theme: "light"
@@ -15,7 +15,7 @@ featured: true
 
 # 封面
 
-![](/image/weekly-5/害羞小向晚.jpg)
+![](https://img.liyucheng.com/file/blog/weekly-5/害羞小向晚.jpg)
 
 害羞小向晚，虚拟偶像团体 Asoul 的成员向晚播放量最高的二创视频封面。
 

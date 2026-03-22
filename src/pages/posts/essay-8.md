@@ -5,8 +5,8 @@ pubDate: 2024-05-18
 description: ""
 author: "李玉成"
 cover:
-  url: "/image/weekly-8/哈尔的移动城堡-海报.jpg"
-  square: "/image/weekly-8/哈尔的移动城堡-海报.jpg"
+  url: "https://img.liyucheng.com/file/blog/weekly-8/哈尔的移动城堡-海报.jpg"
+  square: "https://img.liyucheng.com/file/blog/weekly-8/哈尔的移动城堡-海报.jpg"
   alt: "cover"
 tags: ["周刊"]
 theme: "light"
@@ -15,7 +15,7 @@ featured: true
 
 # 封面
 
-![海报](/image/weekly-8/哈尔的移动城堡-海报.jpg)
+![海报](https://img.liyucheng.com/file/blog/weekly-8/哈尔的移动城堡-海报.jpg)
 
 哈尔的移动城堡重映，上周跑去电影院观看。搞笑的是约着看电影的人买错了影院，临开场的时候才发现，票不能改签也不能推，又急匆匆的赶去另一个地方，看了后边一个半小时。
 

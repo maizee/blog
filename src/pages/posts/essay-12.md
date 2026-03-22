@@ -5,8 +5,8 @@ pubDate: 2024-07-21
 description: "“	我不想当什么真物，我只想做一个人。	” ——《猫物语·白》"
 author: "李玉成"
 cover:
-  url: "/image/weekly-12/1920px-Yande360174.webp"
-  square: "/image/weekly-12/1920px-Yande360174.webp"
+  url: "https://img.liyucheng.com/file/blog/weekly-12/1920px-Yande360174.webp"
+  square: "https://img.liyucheng.com/file/blog/weekly-12/1920px-Yande360174.webp"
   alt: "cover"
 tags: ["周刊"]
 theme: "light"
@@ -15,7 +15,7 @@ featured: true
 
 # 封面
 
-![物语系列|inline](/image/weekly-12/1920px-Yande360174.webp)
+![物语系列|inline](https://img.liyucheng.com/file/blog/weekly-12/1920px-Yande360174.webp)
 
 被几部连载动画恶心到后（水星的魔女、京吹 3），我决定再也不追连载动画，等完结之后看一下评价之后再一口气看完。
 

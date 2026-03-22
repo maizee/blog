@@ -5,21 +5,21 @@ pubDate: 2025-10-27
 description: "是青春的感觉"
 author: "李玉成"
 cover:
-  url: "/image/weekly-14/听见涛声.jpg"
-  square: "/image/weekly-14/听见涛声.jpg"
+  url: "https://img.liyucheng.com/file/blog/weekly-14/听见涛声.jpg"
+  square: "https://img.liyucheng.com/file/blog/weekly-14/听见涛声.jpg"
   alt: "cover"
 tags: ["观后感"]
 theme: "light"
 featured: true
 ---
 
-![小高潮|inline](/image/weekly-14/小高潮.png)
+![小高潮|inline](https://img.liyucheng.com/file/blog/weekly-14/小高潮.png)
 
 刷视频看到多次的片段，这两天不禁搜索看完了整部片子。
 
 # 听见涛声
 
-![很多地方用到，但是电影里面并没有出现的场景|inline](/image/weekly-14/听见涛声.jpg)
+![很多地方用到，但是电影里面并没有出现的场景|inline](https://img.liyucheng.com/file/blog/weekly-14/听见涛声.jpg)
 
 正如片中所说的，小时候自己的世界很小，仅仅是和不喜欢的人做同桌就感觉天已经塌了，上学时候的人们，都做过一些看起来可笑的蠢事，困在自己的小小天地。一见钟情的喜欢、暗恋、喜欢却又捉弄对方、害怕还不敢靠近，这些情愫在心里掀起海浪，而只有成年了，才算听见，听懂了当时的波涛声。
 
@@ -27,7 +27,7 @@ featured: true
 
 # 侧耳倾听
 
-![侧耳倾听|inline](/image/weekly-14/侧耳倾听.png)
+![侧耳倾听|inline](https://img.liyucheng.com/file/blog/weekly-14/侧耳倾听.png)
 
 都是吉卜力工作室制作，听见涛声的相关推荐和评论区里面就有人提及侧耳倾听，说是宫崎骏因为嫉妒听见涛声做得好，自己也搞了一步侧耳倾听。顺带也就看了下来。
 

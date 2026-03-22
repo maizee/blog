@@ -5,8 +5,8 @@ pubDate: 2024-04-06
 description: ""
 author: "李玉成"
 cover:
-  url: "/image/weekly-3/迷人的华夏古城.jpg"
-  square: "/image/weekly-3/迷人的华夏古城.jpg"
+  url: "https://img.liyucheng.com/file/blog/weekly-3/迷人的华夏古城.jpg"
+  square: "https://img.liyucheng.com/file/blog/weekly-3/迷人的华夏古城.jpg"
   alt: "cover"
 tags: ["周刊"]
 theme: "light"
@@ -15,7 +15,7 @@ featured: true
 
 ## 封面
 
-![上京](/image/weekly-3/迷人的华夏古城.jpg)
+![上京](https://img.liyucheng.com/file/blog/weekly-3/迷人的华夏古城.jpg)
 
 上京是游戏彩虹岛 online 的一张地图，彩虹岛这款游戏的 BGM 有着非常鲜明的特色，而上京（Wind From the Far East）更是游戏里面最好听的 BGM 之一。
 
@@ -27,7 +27,7 @@ featured: true
 
 有爱好者为吹学创建了专门的学术网站《[京吹学报](https://hibikilogy.github.io/)》，里面的投稿质量相当之高，用词严肃，考究细致。这应该是我见过文字水平最高的动画爱好者群体了。
 
-![宣传图|inline](/image/weekly-3/京吹第3季定档.jpg)
+![宣传图|inline](https://img.liyucheng.com/file/blog/weekly-3/京吹第3季定档.jpg)
 
 《吹响！上低音号》第三季近期开播，吹学家们的热情再一次高涨，历经十年的动画终于迎来了结束。
 
@@ -64,7 +64,7 @@ featured: true
 
 2018 年夏天，我高中毕业。家里给我买了笔记本、手机，装了宽带。宽带和我的手机号绑在一起，第一年每月都会送腾讯视频会员。我就是在办理宽带的那一天第一次看的《怦然心动》这个电影。最近，刚好刷视频又看了一次。
 
-![|inline](/image/weekly-3/Snipaste_2024-04-06_18-21-36.png)
+![|inline](https://img.liyucheng.com/file/blog/weekly-3/Snipaste_2024-04-06_18-21-36.png)
 
 我印象最深的是这个镜头。
 
@@ -127,7 +127,7 @@ featured: true
 
 2、世界草台论
 
-![|inline](/image/weekly-3/草台.jpg)
+![|inline](https://img.liyucheng.com/file/blog/weekly-3/草台.jpg)
 
 ## 图片
 
@@ -137,6 +137,6 @@ featured: true
 
 挺好看的一组 cos
 
-![|inline](/image/weekly-3/明日香-1.jpg)
+![|inline](https://img.liyucheng.com/file/blog/weekly-3/明日香-1.jpg)
 
-![|inline](/image/weekly-3/明日香-2.jpg)
+![|inline](https://img.liyucheng.com/file/blog/weekly-3/明日香-2.jpg)

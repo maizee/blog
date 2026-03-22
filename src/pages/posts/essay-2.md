@@ -5,8 +5,8 @@ pubDate: 2024-03-30
 description: ""
 author: "李玉成"
 cover:
-  url: "/image/weekly-2/来自泰国的喜悦之泪.png"
-  square: "/image/weekly-2/来自泰国的喜悦之泪.png"
+  url: "https://img.liyucheng.com/file/blog/weekly-2/来自泰国的喜悦之泪.png"
+  square: "https://img.liyucheng.com/file/blog/weekly-2/来自泰国的喜悦之泪.png"
   alt: "cover"
 tags: ["周刊"]
 theme: "light"
@@ -15,7 +15,7 @@ featured: true
 
 ## 封面
 
-![来自泰国的喜悦之泪|inline](/image/weekly-2/来自泰国的喜悦之泪.png)
+![来自泰国的喜悦之泪|inline](https://img.liyucheng.com/file/blog/weekly-2/来自泰国的喜悦之泪.png)
 
 2019 年，泰国女足连续第二届杀入世界杯，在面对瑞典的比赛里打入了那届比赛第一个进球。伍伦盼抱着教练在场边流泪怒吼，在泰国网络上引发了轰动效应。有漫画家将此场景创作成了“来自泰国的喜悦之泪”，成为该国足球史上的经典时刻。
 
@@ -37,7 +37,7 @@ featured: true
 
 河南大学生最喜欢的相亲节目。👌😡👊
 
-![|inline](/image/weekly-2/相亲视频封面.jpg)
+![|inline](https://img.liyucheng.com/file/blog/weekly-2/相亲视频封面.jpg)
 
 “叫俺演一集吧”，“我们河南人有自己的恋综节目”，“新时代豫剧”。
 
@@ -49,11 +49,11 @@ featured: true
 
 游戏模式有单人闯关和多人匹配类型，适合地理爱好者。
 
-![图寻首页](/image/weekly-2/图寻1.jpg)
+![图寻首页](https://img.liyucheng.com/file/blog/weekly-2/图寻1.jpg)
 
 你可以通过观察街景（全景地图）进行判断，通过点击地图得分（分数取决于你相对于目标地点的距离）。
 
-![街景地图](/image/weekly-2/图寻2.jpg)
+![街景地图](https://img.liyucheng.com/file/blog/weekly-2/图寻2.jpg)
 
 [宇科君](https://space.bilibili.com/93569847)是一个主播，周四到周六晚9:30会在抖音和哔哩哔哩平台上直播图寻。
 
@@ -61,13 +61,13 @@ featured: true
 
 1、[赵本山、北野武、沈腾奇迹同框](https://new.qq.com/rain/a/20240325Q03KP600)
 
-![|inline](/image/weekly-2/赵本山.jpg)
+![|inline](https://img.liyucheng.com/file/blog/weekly-2/赵本山.jpg)
 
 三人参加沈腾在澳门举办的国际喜剧节。沈腾算是现在中国喜剧的代表人之一了，能请到这两位大咖参加活动。
 
 2、大青蛙怒砸鼠标
 
-![](/image/weekly-2/大青蛙怒砸鼠标.jpg)
+![](https://img.liyucheng.com/file/blog/weekly-2/大青蛙怒砸鼠标.jpg)
 
 大青蛙哈哈是我最近喜欢看的一个 CS:GO 主播，他让水友往自己的账号充值开箱子，开出来的好东西归水友，然后就开出了迈阿密手套，据说价值好几万。他这一怒之下把鼠标砸坏，手也受到了重创。
 
