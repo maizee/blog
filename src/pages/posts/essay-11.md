@@ -15,7 +15,7 @@ featured: true
 
 # 封面
 
-<img src="https://img.liyucheng.com/file/blog/weekly-11/陆家曦.webp" alt="陆家曦">
+![陆家曦](https://img.liyucheng.com/file/blog/weekly-11/陆家曦.webp)
 
 国家自然科学奖一等奖自 1956 年首次颁奖以来，一共只颁发了 17 次。1989 年 3 月颁给了包头一名中学物理老师陆家羲，表彰其解决了世界性数学难题。
 

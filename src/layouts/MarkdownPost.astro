@@ -17,7 +17,7 @@ const dateFormated = formatDate(pubDate);
   </head>
   <body class:list={["page-article", { "theme-dark": frontmatter.theme === "dark" }]}>
     <Header />
-    <main id="main" class="main">
+    <main id="main" class="main" data-pagefind-body>
       <section>
         <article class="article">
           <div class:list={[{ "featured-header": featured, "article-header": !featured }]}>

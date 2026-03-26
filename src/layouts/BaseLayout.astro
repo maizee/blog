@@ -13,7 +13,9 @@ const title = primaryTitle ? `${primaryTitle}  -  ${SITE_TITLE}` : SITE_TITLE;
   </head>
   <body class="page-landing">
     <Header />
-    <slot />
+    <main data-pagefind-body>
+      <slot />
+    </main>
     <Footer />
   </body>
 </html>

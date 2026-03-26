@@ -1,6 +1,8 @@
 ---
 import { formatDate } from "../utils";
 const { title, href, cover, tags, date, level} = Astro.props;
+const fallbackCover = "/static/default-cover.svg";
+const coverSrc = cover || fallbackCover;
 
 const dateFormated = formatDate(date);
 const type = tags[0];
@@ -21,7 +23,7 @@ const label = `${title} - ${type} - 发表时间 ${dateFormated}`;
     aria-label={label}
   >
     <div class="tile__media" aria-hidden="true">
-      <img class="cover image" data-src={cover} alt="lt"/>
+      <img class="cover image" data-src={coverSrc} alt="lt"/>
     </div>
 
     <div class="tile__description" aria-hidden="true">

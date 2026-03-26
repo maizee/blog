@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">Default cover</title>
+  <desc id="desc">Fallback cover image for blog posts without a custom cover.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f5f5f7" />
+      <stop offset="55%" stop-color="#eef1f5" />
+      <stop offset="100%" stop-color="#e7ebf1" />
+    </linearGradient>
+    <linearGradient id="card" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="100%" stop-color="#fbfbfd" />
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0071e3" />
+      <stop offset="100%" stop-color="#39a0ff" />
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="18" stdDeviation="28" flood-color="#9aa6b2" flood-opacity="0.18" />
+    </filter>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#bg)" />
+  <circle cx="1080" cy="96" r="180" fill="#ffffff" opacity="0.38" />
+  <circle cx="120" cy="560" r="210" fill="#ffffff" opacity="0.3" />
+  <path d="M0 492C128 454 222 446 324 468C454 496 547 572 699 562C824 553 913 480 1027 468C1097 460 1155 468 1200 488V630H0Z" fill="#ffffff" opacity="0.34" />
+
+  <rect x="92" y="92" width="1016" height="446" rx="34" fill="url(#card)" filter="url(#shadow)" />
+  <rect x="92" y="92" width="1016" height="446" rx="34" fill="none" stroke="#d7dbe1" stroke-opacity="0.9" />
+
+  <rect x="154" y="148" width="130" height="12" rx="6" fill="url(#accent)" />
+  <rect x="154" y="196" width="386" height="28" rx="14" fill="#1d1d1f" opacity="0.92" />
+  <rect x="154" y="244" width="512" height="20" rx="10" fill="#6e6e73" opacity="0.84" />
+  <rect x="154" y="281" width="468" height="20" rx="10" fill="#86868b" opacity="0.55" />
+
+  <rect x="154" y="356" width="332" height="112" rx="22" fill="#f5f5f7" />
+  <rect x="186" y="389" width="104" height="14" rx="7" fill="#0071e3" opacity="0.95" />
+  <rect x="186" y="421" width="212" height="16" rx="8" fill="#1d1d1f" opacity="0.9" />
+  <rect x="186" y="449" width="176" height="12" rx="6" fill="#86868b" opacity="0.55" />
+
+  <g transform="translate(734 166)">
+    <rect width="260" height="298" rx="28" fill="#f7f8fa" />
+    <rect x="28" y="28" width="204" height="154" rx="18" fill="#eaf2ff" />
+    <path d="M58 160l42-48 32 28 44-58 28 38 28 40z" fill="#78b4ff" />
+    <circle cx="92" cy="78" r="16" fill="#0071e3" opacity="0.92" />
+    <rect x="28" y="212" width="88" height="10" rx="5" fill="#0071e3" opacity="0.95" />
+    <rect x="28" y="240" width="156" height="14" rx="7" fill="#1d1d1f" opacity="0.9" />
+    <rect x="28" y="268" width="116" height="10" rx="5" fill="#86868b" opacity="0.55" />
+  </g>
+</svg>
