@@ -3,7 +3,15 @@ export function formatDate(dateString) {
   const year = date.getFullYear();
   const month = date.getMonth() + 1;
   const day = date.getDate();
-  return year + " 年 " + month + " 月 " + day + " 日";
+  return `${year} 年 ${month} 月 ${day} 日`;
+}
+
+export function estimateReadingTime(content = "") {
+  const cjkCharacters = (content.match(/[\u3400-\u9fff]/g) || []).length;
+  const latinWords = (content.replace(/[\u3400-\u9fff]/g, " ").match(/[A-Za-z0-9_]+/g) || []).length;
+  const totalUnits = cjkCharacters + latinWords;
+  const minutes = Math.max(1, Math.ceil(totalUnits / 300));
+  return `${minutes} 分钟阅读`;
 }
 
 // debounce function
@@ -19,14 +27,9 @@ export function debounce(fn, delay) {
   };
 }
 
-
 export function formatDateV2(date) {
-  // 创建一个Date对象
   let d = new Date(date);
-  // 使用toLocaleString方法返回本地时间字符串
-  let localTime = d.toLocaleString("zh-CN", {year: "numeric", month: "2-digit", day: "2-digit"});
-  // 去掉字符串中的斜杠和空格
+  let localTime = d.toLocaleString("zh-CN", { year: "numeric", month: "2-digit", day: "2-digit" });
   let formattedDate = localTime.replace(/\//g, "-").replace(/\s/g, "");
-  // 返回格式化后的日期
   return formattedDate;
 }

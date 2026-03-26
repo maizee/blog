@@ -3,12 +3,34 @@ import BaseHead from "../components/BaseHead.astro";
 import Header from "../components/Header.astro";
 import Footer from "../components/Footer.astro";
 
-import { formatDate } from "../utils";
+import { estimateReadingTime, formatDate } from "../utils";
 import { SITE_TITLE } from "../consts";
+
 const { frontmatter } = Astro.props;
+const rawContent = typeof Astro.props.rawContent === "function" ? await Astro.props.rawContent() : Astro.props.rawContent ?? "";
 const type = frontmatter.tags[0];
 const { pubDate, title, description, featured } = frontmatter;
 const dateFormated = formatDate(pubDate);
+const readingTime = estimateReadingTime(rawContent);
+const currentPath = Astro.url.pathname.replace(/\/$/, "");
+
+const allPosts = Object.values(import.meta.glob("../pages/posts/*.md", { eager: true }));
+allPosts.sort((a, b) => Date.parse(b.frontmatter.pubDate) - Date.parse(a.frontmatter.pubDate));
+
+const currentIndex = allPosts.findIndex((post) => post.url?.replace(/\/$/, "") === currentPath);
+const newerPost = currentIndex > 0 ? allPosts[currentIndex - 1] : null;
+const olderPost = currentIndex >= 0 && currentIndex < allPosts.length - 1 ? allPosts[currentIndex + 1] : null;
+
+const relatedPosts = allPosts
+  .filter((post) => post.url?.replace(/\/$/, "") !== currentPath)
+  .map((post) => {
+    const sharedTags = post.frontmatter.tags.filter((tag) => frontmatter.tags.includes(tag));
+    return { post, score: sharedTags.length };
+  })
+  .filter((item) => item.score > 0)
+  .sort((a, b) => b.score - a.score || Date.parse(b.post.frontmatter.pubDate) - Date.parse(a.post.frontmatter.pubDate))
+  .slice(0, 3)
+  .map((item) => item.post);
 ---
 
 <html lang="zh-CN" dir="ltr" class="js no-touch progressive-image no-reduced-motion progressive">
@@ -26,6 +48,7 @@ const dateFormated = formatDate(pubDate);
                 <div class="category-eyebrow">
                   <span class="category-eyebrow__category category_original">{type}</span>
                   <span class="category-eyebrow__date">{dateFormated}</span>
+                  <span class="category-eyebrow__meta">{readingTime}</span>
                 </div>
               </div>
             </div>
@@ -53,6 +76,43 @@ const dateFormated = formatDate(pubDate);
             </div>
           </div>
           <slot />
+
+          <div class="article-discover">
+            {(newerPost || olderPost) && (
+              <div class="article-discover__card">
+                <div class="article-discover__eyebrow">继续阅读</div>
+                <div class="article-nav">
+                  {newerPost && (
+                    <a href={newerPost.url} class="article-nav__item">
+                      <span class="article-nav__label">上一篇</span>
+                      <span class="article-nav__title">{newerPost.frontmatter.title}</span>
+                    </a>
+                  )}
+                  {olderPost && (
+                    <a href={olderPost.url} class="article-nav__item">
+                      <span class="article-nav__label">下一篇</span>
+                      <span class="article-nav__title">{olderPost.frontmatter.title}</span>
+                    </a>
+                  )}
+                </div>
+              </div>
+            )}
+
+            {relatedPosts.length > 0 && (
+              <div class="article-discover__card">
+                <div class="article-discover__eyebrow">相关文章</div>
+                <div class="article-related">
+                  {relatedPosts.map((post) => (
+                    <a href={post.url} class="article-related__item">
+                      <span class="article-related__tag">{post.frontmatter.tags[0]}</span>
+                      <span class="article-related__title">{post.frontmatter.title}</span>
+                    </a>
+                  ))}
+                </div>
+              </div>
+            )}
+          </div>
+
           <script
             src="https://utteranc.es/client.js"
             repo="maizee/blog"

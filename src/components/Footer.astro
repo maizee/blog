@@ -1,8 +1,7 @@
 ---
-import { SITE_TITLE, SITE_EMAIL } from "../consts";
+import { SITE_TITLE, SITE_EMAIL, SITE_NAME, SITE_QQ } from "../consts";
+
 const { theme } = Astro.props;
-import { SITE_NAME } from "../consts";
-import { SITE_QQ } from "../consts";
 const date = new Date();
 const year = date.getFullYear();
 ---
@@ -18,19 +17,15 @@ const year = date.getFullYear();
             <div class="email">QQ：{SITE_QQ}</div>
           </div>
 
-          <!-- <div class="item products">
-            <div class="item-title">作品</div>
-            <a href="/" target="_blank">本站博客</a>
-          </div>
-
-          <div class="item community">
-            <div class="item-title">社媒</div>
-            <a href="https://github.com/maizee" target="_blank">Github</a>
-          </div> -->
-
           <div class="item resources">
             <div class="item-title">本站模板</div>
             <a href="https://yufengbiji.com" target="_blank">驭风笔记</a>
+          </div>
+
+          <div class="item resources">
+            <div class="item-title">订阅与检索</div>
+            <a href="/rss.xml" target="_blank">RSS 订阅</a>
+            <a href="/search">站内搜索</a>
           </div>
         </div>
       </div>
